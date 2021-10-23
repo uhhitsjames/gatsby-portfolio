@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.jamesfinnell.com`,
   },
+  pathPrefix: "/gatsby-portfolio",
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-image',
@@ -14,6 +15,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

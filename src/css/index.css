@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  background-color: #f0f0f0;
+  background-image: url('../images/topography.svg');
+}
+
+.logo {
+  height: 300px;
+}
+
+.logo svg {
+  animation: MoveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
