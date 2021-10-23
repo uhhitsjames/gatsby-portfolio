@@ -1,6 +1,5 @@
 import * as React from "react"
 import Logo from "../components/images/Logo"
-import '../css/index.css'
 
 const IndexPage = () => {
   return (
